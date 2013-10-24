@@ -1,0 +1,1 @@
+Trying the controller route for Oauth Plugin

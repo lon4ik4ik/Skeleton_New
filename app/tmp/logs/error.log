@@ -1,0 +1,289 @@
+2013-09-11 11:27:56 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\Config\bootstrap.php(74): CakePlugin::load('DebugKit')
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Core\Configure.php(92): include('C:\Apache24\htd...')
+#2 C:\Apache24\htdocs\Skeleton\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(92): include('C:\Apache24\htd...')
+#4 {main}
+2013-09-11 11:45:13 Error: [MissingControllerException] Controller class PhpStorm-efacb782-5ca2-4791-97a7-f144594f44a2.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpStorm-efacb782-5ca2-4791-97a7-f144594f44a2.phpController',
+  'plugin' => NULL,
+)
+Request URL: /Skeleton/PhpStorm-efacb782-5ca2-4791-97a7-f144594f44a2.php
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-11 21:11:39 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\Config\bootstrap.php(75): CakePlugin::load('Opauth', Array)
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Core\Configure.php(92): include('C:\Apache24\htd...')
+#2 C:\Apache24\htdocs\Skeleton\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(92): include('C:\Apache24\htd...')
+#4 {main}
+2013-09-11 21:12:28 Error: [MissingActionException] Action AppController::auth() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'auth',
+)
+Request URL: /Skeleton/app/auth/facebook
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-11 21:19:08 Error: [MissingActionException] Action AppController::auth() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'auth',
+)
+Request URL: /Skeleton/app/auth/facebook
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-11 21:19:17 Error: Fatal Error (1): Class 'Opauth' not found in [C:\Apache24\htdocs\Skeleton\app\Plugin\Opauth\Controller\OpauthAppController.php, line 139]
+2013-09-11 21:19:17 Error: [FatalErrorException] Class 'Opauth' not found
+Request URL: /Skeleton/auth/facebook
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'Opauth' ...', 'C:\Apache24\htd...', 139)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Opauth' ...', 'C:\Apache24\htd...', 139, Array)
+#2 C:\Apache24\htdocs\Skeleton\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Opauth' ...', 'C:\Apache24\htd...', 139, Array)
+#3 C:\Apache24\htdocs\Skeleton\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-11 21:20:07 Error: Fatal Error (1): Class 'Opauth' not found in [C:\Apache24\htdocs\Skeleton\app\Plugin\Opauth\Controller\OpauthAppController.php, line 139]
+2013-09-11 21:20:07 Error: [FatalErrorException] Class 'Opauth' not found
+Request URL: /Skeleton/auth/facebook
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'Opauth' ...', 'C:\Apache24\htd...', 139)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Opauth' ...', 'C:\Apache24\htd...', 139, Array)
+#2 C:\Apache24\htdocs\Skeleton\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Opauth' ...', 'C:\Apache24\htd...', 139, Array)
+#3 C:\Apache24\htdocs\Skeleton\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-11 21:20:13 Error: [MissingActionException] Action AppController::auth() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'auth',
+)
+Request URL: /Skeleton/app/auth/facebook
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-11 21:21:27 Error: [MissingViewException] View file "C:\Apache24\htdocs\Skeleton\app\View\App\auth.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Apache24\\htdocs\\Skeleton\\app\\View\\App\\auth.ctp',
+)
+Request URL: /Skeleton/app/auth/facebook
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-12 11:02:02 Error: [MissingActionException] Action AppController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'users',
+)
+Request URL: /Skeleton/app/users/xml/
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-12 11:02:16 Error: [MissingActionException] Action UsersController::xml() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'xml',
+)
+Request URL: /Skeleton/users/xml/
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-12 11:03:19 Error: [MissingActionException] Action UsersController::xml() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'xml',
+)
+Request URL: /Skeleton/Users/xml/
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-12 11:16:32 Error: [MissingControllerException] Controller class CatsController could not be found.
+Exception Attributes: array (
+  'class' => 'CatsController',
+  'plugin' => NULL,
+)
+Request URL: /Skeleton/cats/index.json
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:03:13 Error: [MissingViewException] View file "C:\Apache24\htdocs\Skeleton\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Apache24\\htdocs\\Skeleton\\app\\View\\Users\\login.ctp',
+)
+Request URL: /Skeleton/users/login
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-15 17:11:06 Error: [MissingViewException] View file "C:\Apache24\htdocs\Skeleton\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Apache24\\htdocs\\Skeleton\\app\\View\\Users\\index.ctp',
+)
+Request URL: /Skeleton/users
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-15 17:15:15 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /Skeleton/posts
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 08:11:13 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /Skeleton/posts
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 08:11:31 Error: [MissingViewException] View file "C:\Apache24\htdocs\Skeleton\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Apache24\\htdocs\\Skeleton\\app\\View\\Users\\index.ctp',
+)
+Request URL: /Skeleton/users
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-16 20:33:46 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /Skeleton/user
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 20:33:53 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /Skeleton/user/login
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 20:34:41 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /Skeleton/posts
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 09:15:02 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /Skeleton/posts
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 15:29:35 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /Skeleton/posts
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 15:29:51 Error: [MissingControllerException] Controller class RegistersController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistersController',
+  'plugin' => NULL,
+)
+Request URL: /Skeleton/registers
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 15:30:22 Error: [MissingViewException] View file "C:\Apache24\htdocs\Skeleton\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Apache24\\htdocs\\Skeleton\\app\\View\\Users\\index.ctp',
+)
+Request URL: /Skeleton/users
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-17 15:30:35 Error: [MissingActionException] Action UsersController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'posts',
+)
+Request URL: /Skeleton/users/posts
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-23 11:41:07 Error: [MissingActionException] Action UsersController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'posts',
+)
+Request URL: /Skeleton/users/posts
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-29 19:52:19 Error: [MissingActionException] Action UsersController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'posts',
+)
+Request URL: /Skeleton/users/posts
+Stack Trace:
+#0 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\Skeleton\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Apache24\htdocs\Skeleton\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
